@@ -26,9 +26,8 @@
 uint8_t LEDdata = 0;
 uint8_t LEDstate = 0;
 
-/************************ Example Starts Here *******************************/
+/************************ AIO MQTT feeds *******************************/
 
-// set up the 'counter' feed
 AdafruitIO_Feed *setpower = io.feed("setpower");
 AdafruitIO_Feed *setcolor = io.feed("setcolor");
 AdafruitIO_Feed *seteffect = io.feed("seteffect");
